@@ -45,3 +45,4 @@ jobs:
 
           echo "...but secrets like these won't be visible!"
           echo "APP_SECRET_KEY is: $APP_SECRET_KEY"
+          echo "Try this: ${{ secrets.APP_SECRET_KEY }}"
